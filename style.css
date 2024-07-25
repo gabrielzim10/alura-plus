@@ -1,8 +1,18 @@
 .principal {
-    background-image: url("img/Background.png");
+    
+    background-image: url("");
     background-repeat: no-repeat;
     background-size: contain;
 }
 .container {
     height: 100vh;
 }
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+}
+
+
